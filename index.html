@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"> -->
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <header>
+        <a href="##" class="logo">El_khouly</a>
+        <nav class="navigation">
+            <a href="#services" class="services">services</a>
+            <a href="#projects" class="projectes">projectes</a>
+            <a href="#contact" class="contact">contact</a>
+        </nav>
+    </header>
+    <main>
+        <section class="mn">
+            <div>
+                <h2>Hello I'm Abdelrhman <br> <span>Front-End Development and Data Analyst </span></h2>
+                <h3>لكلا ضد أما..🌞 💪 و أما ..🌚 👎 و اليك القرار</h3>
+                <a href="cv.html" class="main-pot">about me</a>
+                <div class="social-links">
+                    <a href="https://wa.me/your-number" target="_blank" title="WhatsApp">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/your-profile" target="_blank" title="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://facebook.com/your-profile" target="_blank" title="Facebook">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+            <div>
+                <img src="img/photo_2024-09-28_02-45-42.jpg" alt="Profile Picture">
+               
+            </div>
+            </section>
+            <!-- الأقسام الإضافية تحت البيانات الأصلية للصفحة -->
+            <section id="services" class="services-section">
+                <h2>Our Services</h2>
+                <ul>
+                    <li>Web Design</li>
+                    <li>Front-end Development</li>
+                    <li>Data Analysis</li>
+                    <li>UI/UX Consulting</li>
+                </ul>
+            </section>
+            <section id="projects" class="projects-section">  
+                <h2>Our Projects</h2>
+                <ul>
+                    <li>Project A</li>
+                    <li>Project B</li>
+                    <li>Project C</li>
+                    <li>Project D</li>
+                </ul>
+            </section>
+            <section id="contact" class="contact-section">
+                <h2>Contact Us</h2>
+                <form action="submit_form.php" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    
+                    <button type="submit">Send Message</button>
+                </form>
+            </section>
+    </main>
+</body>
+</html>
