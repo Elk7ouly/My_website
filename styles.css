@@ -13,262 +13,262 @@
             margin: 0;
             font-family: Arial, sans-serif;
         }
-        header {
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-            background: linear-gradient(135deg, #7a90a8 60%, #3570a3 100%);
-            border-radius: 18px;
-            box-shadow: 0 2px 12px rgba(0,0,0,0.16);
-            padding: 18px 32px;
-            margin-bottom: 32px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-        .logo {
-            font-size: 1.8rem;
-            font-weight: bold;
-            color: #16203a;
-            text-decoration: none;
-        }
-        .navigation {
-            display: flex;
-            gap: 24px;
-        }
-        .navigation a {
-            color: #005b94;
-            font-weight: 500;
-            text-decoration: none;
-            transition: color 0.2s;
-        }
-        main {
-            margin: 0;
-        }
-        .mn {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 32px;
-            background: linear-gradient(135deg, #e0e7ef 60%, #c9e7fa 100%);
-            border-radius: 24px;
-            box-shadow: 0 4px 24px rgba(0,0,0,0.07);
-            padding: 40px 0;
-            margin: 40px 0;
-        }
-        .mn > div:first-child {
-            flex: 1;
-            max-width: 350px;
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-        }
-        .mn h2 {
-            margin-bottom: 10px;
-            color: #1a2233;
-        }
-        .mn h2 span {
-            color: #0077b5;
-        }
-        .mn h3 {
-            margin-bottom: 18px;
-            color: #444;
-        }
-        .mn a.main-pot {
-            margin-bottom: 18px;
-            color: #fff;
-            background: #0077b5;
-            padding: 8px 18px;
-            border-radius: 8px;
-            text-decoration: none;
-        }
-        .mn .social-links {
-            display: flex;
-            gap: 18px;
-            margin-top: 18px;
-        }
-        .mn .social-links a[title="WhatsApp"] {
-            color: #25D366;
-            font-size: 1.8rem;
-        }
-        .mn .social-links a[title="LinkedIn"] {
-            color: #0077b5;
-            font-size: 1.8rem;
-        }
-        .mn .social-links a[title="Facebook"] {
-            color: #1877f3;
-            font-size: 1.8rem;
-        }
-        .mn > div:last-child {
-            flex-shrink: 0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .mn img {
-            width: 240px;
-            height: 240px;
-            border-radius: 50%;
-            object-fit: cover;
-            box-shadow: 0 2px 16px rgba(0,0,0,0.13);
-            border: 6px solid #fff;
-        }
-        .services-section, .projects-section, .contact-section {
-          background: #f7fafd;
-          border-radius: 18px;
-          box-shadow: 0 2px 12px rgba(0,0,0,0.07);
-          padding: 32px 24px;
-          margin-bottom: 32px;
-          max-width: 700px;
-          margin-left: auto;
-          margin-right: auto;
-        }
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: linear-gradient(135deg, #7a90a8 60%, #3570a3 100%);
+    border-radius: 18px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.16);
+    padding: 18px 32px;
+    margin-bottom: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #16203a;
+    text-decoration: none;
+}
+.navigation {
+    display: flex;
+    gap: 24px;
+}
+.navigation a {
+    color: #005b94;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+main {
+    margin: 0;
+}
+.mn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    background: linear-gradient(135deg, #e0e7ef 60%, #c9e7fa 100%);
+    border-radius: 24px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+    padding: 40px 0;
+    margin: 40px 0;
+}
+.mn > div:first-child {
+    flex: 1;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.mn h2 {
+    margin-bottom: 10px;
+    color: #1a2233;
+}
+.mn h2 span {
+    color: #0077b5;
+}
+.mn h3 {
+    margin-bottom: 18px;
+    color: #444;
+}
+.mn a.main-pot {
+    margin-bottom: 18px;
+    color: #fff;
+    background: #0077b5;
+    padding: 8px 18px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+.mn .social-links {
+    display: flex;
+    gap: 18px;
+    margin-top: 18px;
+}
+.mn .social-links a[title="WhatsApp"] {
+    color: #25D366;
+    font-size: 1.8rem;
+}
+.mn .social-links a[title="LinkedIn"] {
+    color: #0077b5;
+    font-size: 1.8rem;
+}
+.mn .social-links a[title="Facebook"] {
+    color: #1877f3;
+    font-size: 1.8rem;
+}
+.mn > div:last-child {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mn img {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.13);
+    border: 6px solid #fff;
+}
+.services-section, .projects-section, .contact-section {
+    background: #f7fafd;
+    border-radius: 18px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+    padding: 32px 24px;
+    margin-bottom: 32px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-        .services-section h2,
-        .projects-section h2,
-        .contact-section h2 {
-          color: #0077b5;
-          margin-bottom: 18px;
-          font-size: 2rem;
-          font-weight: bold;
-        }
+.services-section h2,
+.projects-section h2,
+.contact-section h2 {
+    color: #0077b5;
+    margin-bottom: 18px;
+    font-size: 2rem;
+    font-weight: bold;
+}
 
-        .services-section ul,
-        .projects-section ul {
-          list-style: disc inside;
-          padding-left: 18px;
-          color: #222;
-          font-size: 1.1rem;
-        }
+.services-section ul,
+.projects-section ul {
+    list-style: disc inside;
+    padding-left: 18px;
+    color: #222;
+    font-size: 1.1rem;
+}
 
-        .services-section li,
-        .projects-section li {
-          margin-bottom: 10px;
-        }
+.services-section li,
+.projects-section li {
+    margin-bottom: 10px;
+}
 
-        .contact-section form {
-          display: flex;
-          flex-direction: column;
-          gap: 14px;
-          max-width: 400px;
-          margin: 0 auto;
-        }
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    max-width: 400px;
+    margin: 0 auto;
+}
 
-        .contact-section label {
-          font-weight: 500;
-          color: #16203a;
-          margin-bottom: 4px;
-        }
+.contact-section label {
+    font-weight: 500;
+    color: #16203a;
+    margin-bottom: 4px;
+}
 
-        .contact-section input,
-        .contact-section textarea {
-          padding: 8px 12px;
-          border: 1px solid #b5c9d6;
-          border-radius: 6px;
-          font-size: 1rem;
-          font-family: inherit;
-          background: #fff;
-          resize: none;
-        }
+.contact-section input,
+.contact-section textarea {
+    padding: 8px 12px;
+    border: 1px solid #b5c9d6;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-family: inherit;
+    background: #fff;
+    resize: none;
+}
 
-        .contact-section textarea {
-          min-height: 80px;
-        }
+.contact-section textarea {
+    min-height: 80px;
+}
 
-        .contact-section button[type="submit"] {
-          background: #0077b5;
-          color: #fff;
-          border: none;
-          padding: 10px 0;
-          border-radius: 8px;
-          font-size: 1.1rem;
-          font-weight: bold;
-          cursor: pointer;
-          transition: background 0.2s;
-        }
+.contact-section button[type="submit"] {
+    background: #0077b5;
+    color: #fff;
+    border: none;
+    padding: 10px 0;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+}
 
-        .contact-section button[type="submit"]:hover {
-          background: #005b94;
-        }
-        
-        body {
-            font-family: 'Cairo', Arial, sans-serif;
-            direction: rtl;
-            margin: 0;
-            background: linear-gradient(135deg, #e0e7ef 0%, #f3f3f3 100%);
-            min-height: 100vh;
-        }
-        .container {
-            max-width: 750px;
-            margin: 40px auto;
-            background: #fff;
-            border-radius: 18px;
-            box-shadow: 0 8px 32px rgba(44, 62, 80, 0.13);
-            overflow: hidden;
-            border: 1px solid #e0e7ef;
-        }
-        .header {
-            background: linear-gradient(90deg, #4a5568 60%, #2d3748 100%);
-            color: #fff;
-            padding: 36px 40px 24px 40px;
-            text-align: right;
-        }
-        .header h1 {
-            margin: 0 0 8px 0;
-            font-size: 2.2em;
-            letter-spacing: 1px;
-        }
-        .header p {
-            margin: 0;
-            font-size: 1.1em;
-            opacity: 0.85;
-        }
-        .content {
-            padding: 36px 40px 32px 40px;
-        }
-        .back-link {
-            display: inline-block;
-            margin-bottom: 24px;
-            color: #4a5568;
-            background: #e0e7ef;
-            padding: 7px 18px;
-            border-radius: 20px;
-            text-decoration: none;
-            font-weight: bold;
-            transition: background 0.2s;
-        }
-        .back-link:hover {
-            background: #cbd5e1;
-        }
-        .section {
-            margin-bottom: 32px;
-        }
-        .section h2 {
-            color: #2d3748;
-            font-size: 1.25em;
-            margin-bottom: 12px;
-            border-right: 4px solid #4a5568;
-            padding-right: 12px;
-            display: inline-block;
-            background: #f7fafc;
-            border-radius: 0 8px 8px 0;
-        }
-        ul {
-            margin: 0;
-            padding: 0 18px 0 0;
-            list-style: disc inside;
-        }
-        li {
-            margin-bottom: 10px;
-            color: #444;
-            font-size: 1.07em;
-        }
-        @media (max-width: 600px) {
-            .container, .header, .content {
-                padding: 18px !important;
-            }
-            .header h1 {
-                font-size: 1.3em;
-            }
-        }
+.contact-section button[type="submit"]:hover {
+    background: #005b94;
+}
+
+body {
+    font-family: 'Cairo', Arial, sans-serif;
+    direction: rtl;
+    margin: 0;
+    background: linear-gradient(135deg, #e0e7ef 0%, #f3f3f3 100%);
+    min-height: 100vh;
+}
+.container {
+    max-width: 750px;
+    margin: 40px auto;
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 8px 32px rgba(44, 62, 80, 0.13);
+    overflow: hidden;
+    border: 1px solid #e0e7ef;
+}
+.header {
+    background: linear-gradient(90deg, #4a5568 60%, #2d3748 100%);
+    color: #fff;
+    padding: 36px 40px 24px 40px;
+    text-align: right;
+}
+.header h1 {
+    margin: 0 0 8px 0;
+    font-size: 2.2em;
+    letter-spacing: 1px;
+}
+.header p {
+    margin: 0;
+    font-size: 1.1em;
+    opacity: 0.85;
+}
+.content {
+    padding: 36px 40px 32px 40px;
+}
+.back-link {
+    display: inline-block;
+    margin-bottom: 24px;
+    color: #4a5568;
+    background: #e0e7ef;
+    padding: 7px 18px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.2s;
+}
+.back-link:hover {
+    background: #cbd5e1;
+}
+.section {
+    margin-bottom: 32px;
+}
+.section h2 {
+    color: #2d3748;
+    font-size: 1.25em;
+    margin-bottom: 12px;
+    border-right: 4px solid #4a5568;
+    padding-right: 12px;
+    display: inline-block;
+    background: #f7fafc;
+    border-radius: 0 8px 8px 0;
+}
+ul {
+    margin: 0;
+    padding: 0 18px 0 0;
+    list-style: disc inside;
+}
+li {
+    margin-bottom: 10px;
+    color: #444;
+    font-size: 1.07em;
+}
+@media (max-width: 600px) {
+    .container, .header, .content {
+        padding: 18px !important;
+    }
+    .header h1 {
+        font-size: 1.3em;
+    }
+}
   
