@@ -271,4 +271,19 @@ li {
         font-size: 1.3em;
     }
 }
-  
+.social-links {
+    display: flex;          /* يجعل العناصر في صف واحد */
+    gap: 15px;             /* مسافة بين الأيقونات */
+    margin-top: 10px;      /* هامش علوي */
+}
+
+.social-links a {
+    color: #0078d7;        /* لون الأيقونات */
+    font-size: 24px;       /* حجم الأيقونات */
+    transition: 0.3s;      /* تأثير حركي عند التمرير */
+}
+
+.social-links a:hover {
+    color: #005bb5;        /* لون عند التمرير */
+    transform: scale(1.1); /* تكبير الأيقونة عند التمرير */
+}
